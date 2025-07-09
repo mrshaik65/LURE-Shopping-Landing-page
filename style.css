@@ -1,0 +1,138 @@
+*{
+   margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* navbar logo styles */
+.logo {
+  height: 75px;
+  width: 175px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+/* -------------home page styles------------- */
+
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 32px;
+  text-align: center;
+  background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+  margin-top: 45px;
+}
+
+.hero-text {
+  max-width: 600px;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero h1::first-letter {
+  font-size: 60px;
+  margin-right: -6px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 24px;
+  
+}
+
+.hero-img {
+  max-width: 60%;
+  height: auto;
+
+}
+
+.shopping-container button {
+  background-color: #FF5500;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shopping-container button:hover {
+  background-color: #fc8549;
+}
+
+.discover-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+  background-color: rgb(244, 243, 238);
+}
+
+.twitter {
+  width: 25px;
+  height: 25px;
+}
+
+.facebook-logo {
+  width: 25px;
+  height: 22.55px;
+  filter: invert(1);
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+  filter: invert(1);
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    text-align: left;
+    padding: 64px;
+  }
+
+  .hero-text {
+    flex: 1;
+    margin-right: 32px;
+  }
+
+  .hero-img {
+    flex: 1;
+    margin-bottom: 0px;
+  }
+}
+
+/* -------------product page styles------------- */
+.spinner {
+  height: 70vh;
+}
+
+/* -------------add product page styles------------- */
+.add-product-form {
+  background: linear-gradient(to right bottom,#ff5622, #ff3f3f, #ff255a, #ff0774, #fd008f);
+  color: white;
+}
+.product-btn{
+   background-color: #FF5500;
+   
+}
+.product-btn:hover {
+  background-color: #fc8549;
+}
+
