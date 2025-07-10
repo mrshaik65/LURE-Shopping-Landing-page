@@ -26,7 +26,7 @@ function displayCards(apiData) {
   rootE1.innerHTML = "";
   for (let eachProduct of apiData) {
     const myCard = `
-    <div class="card" style="width: 18rem">
+    <div class="card shadow-sm" style="width: 18rem">
 
 <img
 src="${eachProduct.image}"

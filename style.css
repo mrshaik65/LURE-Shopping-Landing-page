@@ -18,9 +18,15 @@
   width: 20px;
 }
 
+
+.carousel{
+  height: 82.5%;
+  width: 82.5%;
+}
+
 /* -------------home page styles------------- */
 
-.hero {
+/* .hero {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -73,7 +79,8 @@
 
 .shopping-container button:hover {
   background-color: #fc8549;
-}
+  
+} */
 
 .discover-card {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -100,23 +107,7 @@
   filter: invert(1);
 }
 
-@media (min-width: 768px) {
-  .hero {
-    flex-direction: row;
-    text-align: left;
-    padding: 64px;
-  }
 
-  .hero-text {
-    flex: 1;
-    margin-right: 32px;
-  }
-
-  .hero-img {
-    flex: 1;
-    margin-bottom: 0px;
-  }
-}
 
 /* -------------product page styles------------- */
 .spinner {
@@ -136,3 +127,37 @@
   background-color: #fc8549;
 }
 
+
+.hero {
+    background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+
+}
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+.shopping-container button {
+  background-color: #FF5500;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shopping-container button:hover {
+  background-color: #fc8549;
+  
+}
+.hero h1 {
+
+  font-family: "Quicksand", sans-serif;
+}
+
+.hero h1::first-letter {
+  font-size: 50px;
+  margin-right: -6px;
+}
