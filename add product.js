@@ -25,5 +25,5 @@ formE1.addEventListener("submit", (e) => {
 console.log(obj,array)
     array.push(obj)
     localStorage.setItem("apiData",JSON.stringify(array))
-    
+    formE1.reset()
 })

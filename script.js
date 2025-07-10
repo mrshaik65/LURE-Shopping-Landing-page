@@ -22,6 +22,7 @@ if(localStorage.getItem("apiData")){
     api()
 }
 
+
 function displayCards(apiData) {
   rootE1.innerHTML = "";
   for (let eachProduct of apiData) {
