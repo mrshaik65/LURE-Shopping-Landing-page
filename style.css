@@ -73,13 +73,13 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .facebook-logo {
   width: 25px;
   height: 22.55px;
-  filter: invert(1);
+  filter: invert();
 }
 
 .instagram {
   width: 25px;
   height: 25px;
-  filter: invert(1);
+  filter: invert();
 }
 
 /* -------------product page styles------------- */
