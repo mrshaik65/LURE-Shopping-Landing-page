@@ -1,4 +1,4 @@
-🛍 # Frontend Mentor - Lure Shopping landing page 
+ # 🛍 Frontend Mentor - Lure Shopping landing page 
 
 ![Design preview for the Lure Shopping landing page with two column layout challenge](./images,svgs/preview.jpg)
 
@@ -65,7 +65,7 @@ Products persist on page reload
 
 🚀 Getting Started
 1. Clone the repo
-git clone https://github.com/yourusername/lure-shopping.git
+git clone https://github.com/mrshaik65/lure-shopping.git
 cd lure-shopping
 2. Open index.html in your browser to start
 📦 Dependencies
