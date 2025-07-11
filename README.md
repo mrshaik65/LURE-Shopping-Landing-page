@@ -49,6 +49,7 @@ A responsive e-commerce landing page with product display and custom product add
 ✅ Custom product addition with persistence using localStorage
 
 📜 How It Works
+
 🔹 Product Fetch (script.js)
 Fetches data from FakeStore API
 
